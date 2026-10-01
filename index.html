@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FIT+</title>
+</head>
+<body>
+    
+    <header id="topo">  
+        <img src="img/logo.jpg" alt="Descrição da imagem">
+        <h1>FIT+ Academia</h1>     
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="#topo" class="menu">Início</a></li>
+            <li><a href="#sobre" class="menu">Academia</a></li>
+            <li><a href="#modalidades" class="menu">Modalidades</a></li>
+            <li><a href="#oferta" class="menu">Planos</a></li>
+            <li><a href="#matricula" class="menu">Contato</a></li>
+        </ul>        
+    </nav>
+
+    <div class="principal" id="inicio">
+        <figure>
+            <img src="img/academia.jpg" alt="Descrição da imagem">
+            <figcaption>Transforme seu corpo!!</figcaption>
+        </figure>
+    </div>
+
+    <main id="conteudo">
+
+        <section class="inicio">
+
+            <div class="bloco-sobre" id="sobre">
+                <div class="imagem">
+                    <img src="img/sobre.avif" alt="FIT+ - Academia">
+                </div>
+
+                <div class="texto-sobre">
+                    <h2>Conheça a FIT+ Academia</h2>
+                    <p>A <strong>FIT+ Academia</strong> é o lugar ideal para quem busca saúde, qualidade de vida e melhores resultados. Contamos com uma estrutura completa em profissionais preparados para acompanhar você em cada etapa do seu treino.</p> 
+                    <p>Aqui, você encontra um ambiente confortável e motivador, com equipamentos modernos e serviços pensados para tornar sua experiência ainda melhor. Venha conhecer a FIT+ Academia e transforme seus objetivos em resultados!</p>
+                </div>
+             </div>
+        
+            <div class="diferenciais">
+                <h3>Nossos diferenciais</h3> 
+                <ul> 
+                    <li>Professores especializados;</li> 
+                    <li>Equipamentos modernos;</li> 
+                    <li>Ambiente climatizado;</li> 
+                    <li>Avaliação física;</li> 
+                    <li>Planos de treino personalizados;</li> 
+                    <li>Ambiente confortável e motivador.</li> 
+                </ul> 
+            </div>
+        </section>
+
+        <section class="mapeamento">
+            <div class="map-container">
+                <img src="img/mapeamento.jpg" usemap="#image-map" alt="Mapa da Academia">
+
+                        <map name="image-map">
+                            <area target="_self" alt="Musculação" title="Musculação" href="#musculacao" coords="385,312,879,544" shape="rect">
+                            <area target="_self" alt="Crossfit" title="Crossfit" href="#crossfit" coords="902,485,1159,645" shape="rect">
+                            <area target="_self" alt="Spinning" title="Spinning" href="#spinning" coords="696,254,504,124" shape="rect">
+                            <area target="_self" alt="Studio de Dança" title="Studio de Dança" href="#danca" coords="313,117,494,245" shape="rect">
+                        </map>
+            </div>
+        </section>
+
+        <section class="modalidades" id="modalidades">
+            <figure id="musculacao">
+                <img src="img/musculacao.jpg" alt="Descrição da imagem">
+                <div class="texto-modalidade">
+                    <figcaption>Musculação</figcaption>
+                    <p>Exercícios com pesos e aparelhos para fortalecer os músculos, melhorar a resistência e aumentar o condicionamento físico.</p>
+                </div>
+            </figure>
+
+            <figure id="crossfit">
+                <img src="img/crossfit.webp" alt="Descrição da imagem">
+                <div class="texto-modalidade">
+                    <figcaption>Crossfit</figcaption>
+                    <p>Treinos dinâmicos que combinam força, resistência, agilidade e condicionamento físico em exercícios variados e intensos.</p>
+                </div>
+            </figure>
+
+            <figure id="spinning">
+                <img src="img/spinning.webp" alt="Descrição da imagem">
+                <div class="texto-modalidade">
+                    <figcaption>Spinning</figcaption>
+                    <p>Aulas de ciclismo indoor com diferentes intensidades, ideais para melhorar o condicionamento cardiovascular e queimar calorias.</p>
+                </div>
+            </figure>
+
+            <figure id="danca">
+                <img src="img/danca.jpg" alt="Descrição da imagem">
+                <div class="texto-modalidade">
+                    <figcaption>Dança</figcaption>
+                    <p>Aulas divertidas que combinam música e movimento, ajudando a melhorar a coordenação, a disposição e o condicionamento físico.</p>
+                </div>
+            </figure>
+
+        </section>
+
+        <section class="oferta" id="oferta">
+            <article class="card-oferta">
+                <span class="selo">20%<small>OFF</small></span>
+                <h3>Plano Plus</h3>
+                <p>Musculação, spinning e dança com acesso completo à academia.</p>
+                <p class="preco-antigo">De R$ 99,90/mês</p>
+                <p class="preco-novo">R$ 79,92<span>/mês</span></p>
+                <a href="#matricula" class="botao-oferta">Quero esta oferta</a>
+            </article>
+        </section>
+
+        <section class="planos" id="planos">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Plano</th>
+                        <th>Descrição</th>
+                        <th>Benefícios</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Plano Básico</td>
+                        <td>Acesso à musculação</td>
+                        <td>Musculação e avaliação física</td>
+                        <td>R$ 79,90/mês</td>
+                    </tr>
+
+                    <tr>
+                        <td>Plano Plus</td>
+                        <td>Acesso completo à academia</td>
+                        <td>Musculação, spinning e dança</td>
+                        <td>R$ 99,90/mês</td>
+                    </tr>
+
+                    <tr>
+                        <td>Plano Premium</td>
+                        <td>Acesso completo + acompanhamento</td>
+                        <td>Todas as modalidades e acompanhamento personalizado</td>
+                        <td>R$ 129,90/mês</td>
+                    </tr>
+
+                    <tr>
+                        <td>Plano Anual</td>
+                        <td>Acesso completo durante 12 meses</td>
+                        <td>Todas as modalidades + avaliação física</td>
+                        <td>R$ 1.099,90/ano</td>
+                    </tr> 
+                </tbody>
+            </table>
+
+        </section>
+
+        <section class="formulario" id="matricula">
+            <h2>Faça sua matrícula</h2>
+            <p>Preencha o formulário abaixo e nossa equipe entrará em contato para agendar sua aula experimental.</p>
+            
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Seus dados</legend>
+
+                    <div class="campo">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome"
+                        placeholder="Como podemos chamá-lo?" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email"
+                        placeholder="seuemail@exemplo.com" required>
+
+                    </div>
+
+                    <div class="campo" role="radiogroup" aria-labelledby="perunta-experiencia">
+                        <span class="rotulo" id="pergunta-experiencia">Você já treina atualmente?</span>
+                        <div class="opcoes">
+                            <label class="opcao">
+                                <input type="radio" name="experiencia" value="iniciante" required>
+                                Não, estou começando agora
+                            </label>
+                            <label class="opcao">
+                                <input type="radio" name="experiencia" value="intermediario">
+                                Sim, há menos de um ano
+                            </label>
+                            <label class="opcao">
+                                <input type="radio" name="experiencia" value="avancado">
+                                Sim, há mais de um ano
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="campo" role="group" aria-labelledby="perunta-objetivo">
+                        <span class="rotulo" id="pergunta-objetivo">Quais são seus objetivos? (marque quantos quiser)</span>
+                        <div class="opcoes">
+                            <label class="opcao">
+                                <input type="checkbox" name="objetivo" value="emagrecimento">
+                                Emagrecimento
+                            </label>
+                            <label class="opcao">
+                                <input type="checkbox" name="objetivo" value="hipertrofia">
+                                Ganho de massa muscular
+                            </label>
+                            <label class="opcao">
+                                <input type="checkbox" name="objetivo" value="condicionamento">
+                                Condicionamento físico
+                            </label>
+                            <label class="opcao">
+                                <input type="checkbox" name="objetivo" value="saude">
+                                Saúde e bem-estar
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Algo mais?</legend>
+ 
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" maxlength="500"
+                                  placeholder="Conte se tem alguma lesão, restrição ou dúvida sobre planos e horários."></textarea>
+                    </div>
+ 
+                    <label class="opcao">
+                        <input type="checkbox" id="novidades" name="novidades" value="sim">
+                        Quero receber promoções e novidades da FIT+ Academia.
+                    </label>
+                </fieldset>
+ 
+                <div class="botoes">
+                    <button type="submit">Enviar matrícula</button>
+                    <button type="reset">Limpar formulário</button>
+                </div>
+ 
+            </form>
+        </section>
+                        
+                    </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="rodape">
+        <nav class="fim">
+            <ul>
+                <li><a href="#topo">Início</a></li>
+                <li><a href="#academia">Academia</a></li>
+                <li><a href="#modalidades">Modalidades</a></li>
+                <li><a href="#oferta">Planos</a></li>
+                <li><a href="#formulario">Contato</a></li>
+            </ul>        
+        </nav>      
+
+        <p>&copy; 2026 Design By Ana Clara Espíndola & Luana Calonaci. Todos os direitos reservados.</p>
+    </footer>
+
+    <a href="#topo" class="botao-topo" title="Voltar ao Topo">▲</a>
+
+</body>
+</html>
